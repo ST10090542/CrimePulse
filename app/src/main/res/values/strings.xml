@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">CrimePulse_Group6</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="safety_guidelines">
+    Safety Guidelines:\n
+    \n
+    Be crime conscious - be aware of crime opportunities at all times!\n
+    - Never walk around alone and don’t talk to strangers. Be on the lookout for strange cars or people.\n
+    - Walk in well-lit busy streets and in a group, if possible.\n
+    - Make sure your home is secure, and become a member of an armed response service. Be sure that you know all the emergency numbers or have them displayed in an accessible area.\n
+    - Always let someone know where you are going and how long you will be gone. But think twice before advertising your impending absence on social media. Criminals also have access to Facebook and Twitter.\n
+    - Know all emergency numbers.\n
+    - Trust your instinct.\n
+    - Avoid going onto a congested street where you cannot even walk properly, that is where you will find criminals pick pocketing.\n
+    - Avoid displaying valuables where criminals can see them.\n
+    HIJACKINGS\n
+    - Avoid being alone in a vehicle when travelling at night.\n
+    - Do not stop around hijacking spots or at any secluded area.\n
+    - Always be alert when driving. If you suspect that you are being followed by a suspicious vehicle, drive to the nearest police station or call the SAPS Emergency number 10111.\n
+    - Do not pick up hitchhikers, particularly when you drive alone.\n
+    - Avoid distractions such as being on your phone, drinking and driving.\n
+    - Increase caution at intersections – always keep a look out for people loitering around your car or for any sudden activity around your car.\n
+    HOUSE ROBBERIES\n
+    - Always be on the lookout for suspicious persons and vehicles.\n
+    - Enhance security through fitting access doors with security gates and install burglar bars on windows.\n
+    - Request neighbours to keep an eye when you go away for an extended period.\n
+    - Do not open gates and doors for strangers.\n
+    - Verify the details of anyone before you employ them and check authenticity of a contractor before you allow access to the premises.\n
+    BUSINESS ROBBERIES\n
+    - Do not keep too much money on the business premises.\n
+    - Be on the lookout for suspicious customers.\n
+    - Do not keep the shop open till late.\n
+    - Avoid being alone, especially at night.\n
+    - Business owners must not open for anyone after the business has closed.\n
+    THE FOLLOWING ARE SAFETY TIPS TO PREVENT CONTACT CRIMES:\n
+    - Do not carry too much money when going to drinking places.\n
+    - Do not carry weapons when you attend social gatherings.\n
+    - Do not share a drink with someone you do not know.\n
+    - Avoid confrontation when under the influence of alcohol.\n
+    - Do not leave your drink unattended.\n
+</string>
+</resources>

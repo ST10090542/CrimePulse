@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/baseline_emergency_24"
+            android:title="Emergency Contacts"
+            android:textColor="#FFFFFF" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/baseline_map_24"
+            android:title="Crime Alert Map"
+            android:textColor="#FFFFFF" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/baseline_safety_guidelines_24"
+            android:title="Safety Guidelines"
+            android:textColor="#FFFFFF" />
+        <item
+            android:id="@+id/reportsActivity"
+            android:icon="@drawable/baseline_reports_24"
+            android:title="Report Incident"
+            android:textColor="#FFFFFF" />
+        <item
+            android:id="@+id/crimeTrendsActivity"
+            android:icon="@drawable/baseline_crime_trends_24"
+            android:title="Crime Trends"
+            android:textColor="#FFFFFF" />
+        <item
+            android:id="@+id/tipsSectionActivity"
+            android:icon="@drawable/baseline_tips_and_updates_24"
+            android:title="Basic Tips"
+            android:textColor="#FFFFFF" />
+        <item
+            android:id="@+id/incidentCommentingActivity"
+            android:icon="@drawable/baseline_comment_24"
+            android:title="Incident Comments"
+            android:textColor="#FFFFFF" />
+    </group>
+</menu>

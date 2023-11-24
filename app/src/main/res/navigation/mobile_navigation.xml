@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.st10090542.crimepulse_group6.ui.home.HomeFragment"
+        android:label="Crime Alert Map"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.st10090542.crimepulse_group6.ui.gallery.GalleryFragment"
+        android:label="Emergency Contacts"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="com.st10090542.crimepulse_group6.ui.slideshow.SlideshowFragment"
+        android:label="Safety Tips"
+        tools:layout="@layout/fragment_slideshow" />
+    <activity
+        android:id="@+id/reportsActivity"
+        android:name="com.st10090542.crimepulse_group6.ui.reports.ReportsActivity"
+        android:label="activity_reports"
+        tools:layout="@layout/activity_reports" />
+    <activity
+        android:id="@+id/tipsSectionActivity"
+        android:name="com.st10090542.crimepulse_group6.ui.tips.TipsSectionActivity"
+        android:label="activity_tips_section"
+        tools:layout="@layout/activity_tips_section" />
+    <activity
+        android:id="@+id/crimeTrendsActivity"
+        android:name="com.st10090542.crimepulse_group6.ui.trends.CrimeTrendsActivity"
+        android:label="activity_crime_trends"
+        tools:layout="@layout/activity_crime_trends" />
+    <activity
+        android:id="@+id/incidentCommentingActivity"
+        android:name="com.st10090542.crimepulse_group6.ui.incident.IncidentCommentingActivity"
+        android:label="activity_incident_commenting"
+        tools:layout="@layout/activity_incident_commenting" />
+</navigation>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#303F9F"
+    android:paddingTop="32dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp">
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Emergency Contacts"
+android:textColor="#FFFFFF"
+android:textSize="28sp"
+android:textStyle="bold"
+android:layout_gravity="center"
+    android:layout_marginBottom="16dp"/>
+
+
+    <TextView
+        android:id="@+id/police_emergency_number"
+        android:layout_width="352dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:text="Primary Police emergency number: 10111"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+        android:textStyle="bold" />
+
+<TextView
+android:id="@+id/crime_stop"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Crime Stop: Report crimes as well as provide anonymous tip-offs. Call 0860 010 111"
+android:textColor="#FFFFFF"
+android:textSize="19sp"
+android:layout_gravity="center_horizontal"
+android:layout_marginBottom="8dp"
+android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/police_complaints"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Police service complaints center: Report any issues with the police on 0800 333 177"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+    android:layout_marginBottom="8dp"
+        android:textStyle="bold"/>
+
+    <!-- Ambulance -->
+    <TextView
+        android:id="@+id/ambulance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ambulance: 10177"
+        android:textColor="#FFFFFF"
+        android:textSize="19sp"
+    android:layout_marginBottom="8dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
+
