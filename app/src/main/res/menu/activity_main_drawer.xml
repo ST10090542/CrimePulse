@@ -20,22 +20,17 @@
             android:title="Safety Guidelines"
             android:textColor="#FFFFFF" />
         <item
-            android:id="@+id/reportsActivity"
-            android:icon="@drawable/baseline_reports_24"
-            android:title="Report Incident"
-            android:textColor="#FFFFFF" />
-        <item
-            android:id="@+id/crimeTrendsActivity"
+            android:id="@+id/crimeTrendsFragment"
             android:icon="@drawable/baseline_crime_trends_24"
             android:title="Crime Trends"
             android:textColor="#FFFFFF" />
         <item
-            android:id="@+id/tipsSectionActivity"
+            android:id="@+id/tipsFragment"
             android:icon="@drawable/baseline_tips_and_updates_24"
             android:title="Basic Tips"
             android:textColor="#FFFFFF" />
         <item
-            android:id="@+id/incidentCommentingActivity"
+            android:id="@+id/incidentCommentingFragment"
             android:icon="@drawable/baseline_comment_24"
             android:title="Incident Comments"
             android:textColor="#FFFFFF" />

@@ -43,7 +43,7 @@ class NavigationActivity : AppCompatActivity() {
 
         appBarConfiguration = AppBarConfiguration(
             setOf(
-                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.reportsActivity, R.id.crimeTrendsActivity, R.id.tipsSectionActivity, R.id.incidentCommentingActivity
+                R.id.nav_home, R.id.nav_gallery, R.id.nav_slideshow, R.id.crimeTrendsFragment, R.id.tipsFragment, R.id.incidentCommentingFragment
             ), drawerLayout
         )
 

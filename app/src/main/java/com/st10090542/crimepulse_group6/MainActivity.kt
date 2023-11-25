@@ -47,17 +47,14 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_slideshow -> {
                     navController.navigate(R.id.nav_slideshow)
                 }
-                R.id.reportsActivity -> {
-                    navController.navigate(R.id.reportsActivity)
+                R.id.crimeTrendsFragment -> {
+                    navController.navigate(R.id.crimeTrendsFragment)
                 }
-                R.id.crimeTrendsActivity -> {
-                    navController.navigate(R.id.crimeTrendsActivity)
+                R.id.tipsFragment -> {
+                    navController.navigate(R.id.tipsFragment)
                 }
-                R.id.tipsSectionActivity -> {
-                    navController.navigate(R.id.tipsSectionActivity)
-                }
-                R.id.incidentCommentingActivity -> {
-                    navController.navigate(R.id.incidentCommentingActivity)
+                R.id.incidentCommentingFragment -> {
+                    navController.navigate(R.id.incidentCommentingFragment)
                 }
             }
             drawerLayout.closeDrawer(GravityCompat.START)

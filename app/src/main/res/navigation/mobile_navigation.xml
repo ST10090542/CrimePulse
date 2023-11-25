@@ -22,24 +22,19 @@
         android:name="com.st10090542.crimepulse_group6.ui.slideshow.SlideshowFragment"
         android:label="Safety Tips"
         tools:layout="@layout/fragment_slideshow" />
-    <activity
-        android:id="@+id/reportsActivity"
-        android:name="com.st10090542.crimepulse_group6.ui.reports.ReportsActivity"
-        android:label="activity_reports"
-        tools:layout="@layout/activity_reports" />
-    <activity
-        android:id="@+id/tipsSectionActivity"
-        android:name="com.st10090542.crimepulse_group6.ui.tips.TipsSectionActivity"
-        android:label="activity_tips_section"
-        tools:layout="@layout/activity_tips_section" />
-    <activity
-        android:id="@+id/crimeTrendsActivity"
-        android:name="com.st10090542.crimepulse_group6.ui.trends.CrimeTrendsActivity"
-        android:label="activity_crime_trends"
-        tools:layout="@layout/activity_crime_trends" />
-    <activity
-        android:id="@+id/incidentCommentingActivity"
-        android:name="com.st10090542.crimepulse_group6.ui.incident.IncidentCommentingActivity"
-        android:label="activity_incident_commenting"
-        tools:layout="@layout/activity_incident_commenting" />
+    <fragment
+        android:id="@+id/crimeTrendsFragment"
+        android:name="com.st10090542.crimepulse_group6.CrimeTrendsFragment"
+        android:label="fragment_crime_trends"
+        tools:layout="@layout/fragment_crime_trends" />
+    <fragment
+        android:id="@+id/tipsFragment"
+        android:name="com.st10090542.crimepulse_group6.TipsFragment"
+        android:label="fragment_tips"
+        tools:layout="@layout/fragment_tips" />
+    <fragment
+        android:id="@+id/incidentCommentingFragment"
+        android:name="com.st10090542.crimepulse_group6.IncidentCommentingFragment"
+        android:label="fragment_incident_commenting"
+        tools:layout="@layout/fragment_incident_commenting" />
 </navigation>
